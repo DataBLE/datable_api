@@ -1,0 +1,9 @@
+{% extends "floppyforms/gis/openlayers.html" %}
+
+{% block options %}{{ block.super }}
+options['base_layer'] = new OpenLayers.Layer.XYZ("ESRI", 
+    "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/${z}/${y}/${x}",
+    {sphericalMercator:true, numZoomLevels: 20, units: 'm'});
+options['point_zoom'] = 14;
+{% endblock %}
+

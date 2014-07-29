@@ -1,0 +1,24 @@
+# This file collects all required third-party applications that are needed
+# to run this project. Later you can install all these apps in a row
+# using pip. Example::
+#
+#     pip install -r requirements.txt
+
+django==1.6.1
+south==0.8.4
+gunicorn==18.0
+django-choices==1.1.12
+geopy==0.98.2
+django-floppyforms==1.1.1
+-e .
+
+# Heroku stuff
+dj-database-url==0.2.2
+dj-static==0.0.5
+psycopg2==2.5.2
+newrelic
+
+# Test stuff
+django-webtest==1.7.7
+webtest==2.0.15
+django-factory-boy==0.1.6
