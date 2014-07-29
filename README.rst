@@ -28,3 +28,8 @@ License
 -------
 
 GPLv3
+
+Authors
+-------
+
+Juan Carlos Ferrer @juancferrer and other contributors
