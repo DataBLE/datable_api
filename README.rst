@@ -24,6 +24,11 @@ Developer documentation is available in Sphinx format in the docs directory.
 Initial installation instructions (including how to build the documentation as
 HTML) can be found in docs/install.rst.
 
+Contributing
+------------
+
+Please do. Just start an Issue ticket with your idea or open a Pull Request!
+
 License
 -------
 
