@@ -6,7 +6,7 @@
 
 django==1.6.1
 south==0.8.4
-gunicorn==18.0
+gunicorn ~> 19.5.0
 django-choices==1.1.12
 geopy==0.98.2
 django-floppyforms==1.1.1
